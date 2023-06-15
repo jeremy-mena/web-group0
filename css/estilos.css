@@ -1,0 +1,140 @@
+
+body {
+    background-image: url("C:/Users/jeremy/Desktop/PW/img/fondoba.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    background-attachment: fixed;
+  }
+
+.container {
+    background-color: hsl(40, 16%, 96%);
+}
+
+.carousel-control-prev {  
+    background-color: hsl(40, 16%, 96%);
+    opacity: 60%;
+}
+
+.carousel-control-next {
+    background-color: hsl(40, 16%, 96%);
+    opacity: 40%;
+}
+
+.carousel-control-next-icon {
+    background-color: hsla(40, 14%, 96%, 0.945);
+}
+
+.boton {
+    background-color: brown;
+    opacity: 50%;
+}
+
+.fondo {
+    background-color: beige;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+    
+}
+.formulario{
+    background-color: rgba(228, 219, 219, 0.6);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #d17979;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+div.cajaP{
+
+    border: 2px solid rgb(252, 165, 165);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(228, 219, 219, 0.6)
+}
+
+div.caja3{
+
+    border: 2px solid rgb(252, 165, 165);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(226, 216, 216, 0.89)
+}
+
+
+
+h4.lead {
+    font-weight: 640;
+  }
+
+
+p.titulo1{
+
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+
